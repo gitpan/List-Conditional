@@ -18,11 +18,11 @@ List::Conditional - Create lists based on a condition for each element
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -53,7 +53,7 @@ B<clist> is automatically exported, as it is the only function in this module.
 
 =head2 clist
 
-B<Arguments:> an even number of elements, interpreted as pairs of C<condition => value>
+B<Arguments:> an even number of elements, interpreted as pairs of C<<condition => value>>
 
 B<Returns:> the list of values, for which the associated condition evaluates to true.
 
